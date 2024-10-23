@@ -1,11 +1,15 @@
-import React from 'react'
+import Navbar from "./components/navbar"
+import Hero from "./components/hero";
+import Footer from "./components/footer";
 
-const ServicePage = () => {
+const HomePage=() => {
   return (
     <div>
-      <h1 className='bg-yellow-300'>This is service page</h1>
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <Footer></Footer>
     </div>
   )
-}
 
-export default ServicePage;
+};
+export default HomePage;
